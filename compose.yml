@@ -1,0 +1,6 @@
+services:
+  pythonapp:
+    build: ./backend
+    container_name: pythonapp
+    ports:
+      - 5000:5000
