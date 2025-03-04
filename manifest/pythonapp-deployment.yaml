@@ -21,7 +21,7 @@ spec:
         io.kompose.service: pythonapp
     spec:
       containers:
-        - image: sriramravi477/python:12
+        - image: sriramravi477/python:13
           name: pythonapp
           ports:
             - containerPort: 5000
